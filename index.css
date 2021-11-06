@@ -1,20 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abel&family=Aclonica&display=swap');
 
+
+:root{
+    --main-color-text: #FFC701;
+}
+
+
+
+
+
 *{
     list-style: none;
     margin: 0;
     padding: 0;
 }
 nav{
-    background-color: #F9F9F9;
+    background-color: #fdfdfd;
     height: 15vh;
+    box-shadow: 0px 3px 10px black; 
 }
 a{
     text-decoration: none;
-    color: #FFC701;
+    color: var(--main-color-text);
 }
-/*---------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------*/
 .nav-config{
     float: left;
 }
@@ -27,7 +37,7 @@ a{
     font-size: 40px;
     font-family: 'Abel', sans-serif;
 
-    color: #FFC701;
+    color: var(--main-color-text);
 }
 .title-nav{
     padding-top: 30px;
@@ -35,17 +45,62 @@ a{
     margin-right: 300px;
 
 
-    color: #FFC701;
+    color: var(--main-color-text);
 
     font-family: 'Aclonica', sans-serif;
     font-size: 50px;
 }
 /*-------------------------------------------------------------------------------*/
 .hello{
-    background-color: #4399FF;
+    background-color: #4398ffdf;
+    height:48vh;
+    
 }
 .text-header{
+    text-align: center;
     color: #fff;
     font-family: 'Aclonica', sans-serif;
-    font-size: 2em;
+    font-size: 2.3em;
+    padding-top: 7vh;
+    padding-right: 5vw;
+}
+#imgdog{
+    margin-right: 50px;
+    padding-top: 10px;
+    float: left;
+}
+/*-------------------------------------------------------------------------------*/
+.newsletter{
+    margin-top: 4vh;
+    margin-right: 3vw;
+    background-color: #C4C4C4;
+    float: right;
+    width: 37vw;
+    height: 15vw;
+    border-radius: 15px;
+}
+.title-newsletter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--main-color-text);
+    font-family: 'Aclonica', sans-serif;
+    font-size: 1.7em;
+    height: 50px;
+    background-color: #F4F4F4;
+    border-radius: 15px 15px 0% 0%
+}
+.forms{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.input-email{
+    margin-right: 100px;
+}
+.input-tel{
+    float: left;
+}
+.text-newsletter-main{
+    color: var(--main-color-text);
 }
