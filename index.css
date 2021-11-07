@@ -149,11 +149,12 @@ form{
         display: none;
     }
     .text-newsletter-main{
-        font-size: 10px;
+        font-size: 30px;
         padding-bottom: 10px;
     }
     .newsletter{
         margin-right: 0vw;
         margin-left: 0vw;
+        margin-bottom: 20px;
     }
 }
