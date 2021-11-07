@@ -34,7 +34,7 @@ a{
     padding-inline-end: 40px;
 
     font-family: sans-serif;
-    font-size: 40px;
+    font-size: 3vw;
     font-family: 'Abel', sans-serif;
 
     color: var(--main-color-text);
@@ -156,5 +156,6 @@ form{
         margin-right: 0vw;
         margin-left: 0vw;
         margin-bottom: 20px;
+        width: 100%;
     }
 }
