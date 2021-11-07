@@ -63,6 +63,7 @@ a{
     font-size: 37px;
     padding-top: 7vh;
     padding-right: 5vw;
+    padding-left: 3vw;
 }
 #imgdog{
     margin-right: 50px;
@@ -97,7 +98,7 @@ newsletter-main{
 .text-newsletter-main{
     padding-top: 6vh;
     color: var(--main-color-text);
-    font-size: 2.7em;
+    font-size: 42px;
     font-family: 'Aclonica', sans-serif;
     text-align: center;
 }
@@ -142,9 +143,17 @@ form{
         display: none;
     }
     .text-header{
-        font-size: 22px;
+        font-size: 25px;
     }
     .nav-itens{
         display: none;
+    }
+    .text-newsletter-main{
+        font-size: 30px;
+        padding-bottom: 10px;
+    }
+    .newsletter{
+        margin-right: 0.7vw;
+        margin-left: 1vw;
     }
 }
