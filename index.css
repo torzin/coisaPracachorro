@@ -60,7 +60,7 @@ a{
     text-align: center;
     color: #fff;
     font-family: 'Aclonica', sans-serif;
-    font-size: 2.3em;
+    font-size: 37px;
     padding-top: 7vh;
     padding-right: 5vw;
 }
@@ -131,4 +131,20 @@ form{
     height: 20px;
     box-shadow: 0px 0px 4px rgb(107, 107, 107);
     border-style: none;
+}
+#imgdog{
+    width: 30vw;
+    height: 50vh;
+}
+
+@media only screen and (max-width:1000px){
+    #imgdog{
+        display: none;
+    }
+    .text-header{
+        font-size: 20px;
+    }
+    .nav-itens{
+        display: none;
+    }
 }
