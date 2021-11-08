@@ -23,6 +23,7 @@ nav{
 a{
     text-decoration: none;
     color: var(--main-color-text);
+    transition: ease-in 0.2s;
 }
 /*-------------------------------------------------------------------------------*/
 .nav-config{
@@ -158,4 +159,7 @@ form{
         margin-bottom: 20px;
         width: 100%;
     }
+}
+a:hover{
+    color: #ffe70e;
 }
